@@ -1,0 +1,111 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1642616761188-999cda84e89a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+
+*{ 
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(13, 11, 24, 0.651);
+    backdrop-filter: blur(70px);
+}
+
+::placeholder{
+    color:rgba(233, 233, 233, 0.3);
+}
+
+.app{
+    padding: 20px;
+    height: 50vh;
+    width: 70vw;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1642616761188-999cda84e89a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+
+.toolbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.save-window{
+    display: none;
+    background: rgba(0, 0, 0, .3);
+    padding: 5px;
+}
+
+.past-projects{
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(13, 11, 24, 0.651);
+    backdrop-filter: blur(70px);
+}
+
+.past-project{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.project-btn{
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+textarea, input{
+    background: none;
+    border: none;
+    color: white;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.row{
+    margin: 20px;
+}
+
+.toolbar-option{
+    margin-right: 5px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.text-area-user{
+    width: 100%;
+    height: 15vw;
+    overflow: hidden;
+    resize: none;
+}
+
+.project-title-value{
+    font-size: 2rem;
+}

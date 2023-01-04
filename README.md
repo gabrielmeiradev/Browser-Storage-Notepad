@@ -1,3 +1,4 @@
+![Alt Text](https://github.com/gabrielmeiradev/Browser-Storage-Notepad/blob/main/Recording_1672794846333.gif)
 # Browser-Storage-Notepad
 A Notepad app that uses localStorage in JS to save text files
 
